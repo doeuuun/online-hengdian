@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: online-hengdian
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: MAX_CLIENTS
+        value: "60"
+      - key: MAX_PER_IP
+        value: "8"

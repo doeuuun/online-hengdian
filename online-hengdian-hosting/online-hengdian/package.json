@@ -1,0 +1,10 @@
+{
+  "name": "online-hengdian",
+  "version": "1.0.0",
+  "private": true,
+  "description": "온라인 헝디엔 - 3D 명청궁원 웹 체험 공간",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}
